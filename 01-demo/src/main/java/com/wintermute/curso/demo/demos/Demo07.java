@@ -8,7 +8,7 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
-public class Demo7 {
+public class Demo07 {
 
 	public static final String SOURCE_FILE = "src/main/resources/flowers.jpg";
 	public static final String DESTINATION_FILE = "src/main/resources/flowers2.jpg";

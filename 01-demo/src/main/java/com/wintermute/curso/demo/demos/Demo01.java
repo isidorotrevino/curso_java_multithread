@@ -5,13 +5,13 @@ package com.wintermute.curso.demo.demos;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 
-public class Demo1 {
+public class Demo01 {
     public String getGreeting() {
         return "Hello world.";
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(new Demo1().getGreeting());
+        System.out.println(new Demo01().getGreeting());
         Thread thread = new Thread(new Runnable() {
 			
 			@Override

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Demo3 {
+public class Demo03 {
 	public static final int MAX_PASSWORD = 9999;
 
 	public static void main(String[] args) throws InterruptedException {

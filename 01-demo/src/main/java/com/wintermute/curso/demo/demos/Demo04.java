@@ -2,7 +2,7 @@ package com.wintermute.curso.demo.demos;
 
 import java.math.BigInteger;
 
-public class Demo4 {
+public class Demo04 {
 
 	public static void main(String[] args) {
 		Thread thread = new Thread(new BlockingTask());

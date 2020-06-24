@@ -1,6 +1,6 @@
 package com.wintermute.curso.demo.demos;
 
-public class Demo2 {
+public class Demo02 {
 
 	 public static void main(String[] args) throws InterruptedException {
 	        Thread thread = new Thread(new NewThread());

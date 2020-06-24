@@ -5,13 +5,13 @@ package com.wintermute.curso.demo;
 
 import org.junit.Test;
 
-import com.wintermute.curso.demo.demos.Demo1;
+import com.wintermute.curso.demo.demos.Demo01;
 
 import static org.junit.Assert.*;
 
 public class Demo1Test {
     @Test public void testAppHasAGreeting() {
-        Demo1 classUnderTest = new Demo1();
+        Demo01 classUnderTest = new Demo01();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
